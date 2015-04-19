@@ -3,5 +3,14 @@
 /******************************/
 
 .features .glyphicon{
-	font-size: 32px;
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.jj-fire{
+	color: orange;
+}
+
+.jj-leaf{
+	color: darkgreen;
 }
