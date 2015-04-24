@@ -14,3 +14,10 @@
 .jj-leaf{
 	color: darkgreen;
 }
+
+.jj-profile-pic{
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+	padding: 15px 0px 10px 0px;	
+}
