@@ -1,1 +1,1 @@
-Simple prueba de texto, para testear la integración de git del nuevo Visual Studio Code.
+Simple prueba de texto, para testear la integración de git del nuevo Visual Studio Code
