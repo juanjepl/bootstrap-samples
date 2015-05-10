@@ -133,35 +133,26 @@
                 </div>
             </div>
 
-            <div class='row'>
-                <div class='well well'>
-                    <form class="form-horizontal">
-                      <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-10">
-
-                            <!-- THERE'S THE FORM FOR TOOLTIP SAMPLING ON FOCUS -->
-                          <input id="myInput" type="email" class="form-control" id="inputEmail3" placeholder="Email" data-placement="top" data-original-title="El email debe seguir un formato correcto."onfocus="myToolTip()">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-                        <div class="col-sm-10">
-                          <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn btn-default">Sign in</button>
-                        </div>
-                      </div>
-                    </form>
-                </div>
+            <div class="row">
+                <button class="btn btn-success" type="button">
+                  Ejemplo de Badge <span class="badge">42</span>
+                </button>
+                
+                <button class="btn btn-default" type="button">
+                  KANJI <span class="badge">電気</span>
+                </button>
             </div>
-
-        <br>
+            
+            <br>
+            
+            <div class="row">
+                <ol class="breadcrumb">
+                  <li><a href="#">Primario</a></li>
+                  <li><a href="#">Secundario</a></li>
+                  <li class="active">Dato_en_cuestión</li>
+                  <li class="pull-right text-right">Probando los breadcumbs de Bootstrap</li>
+                </ol>
+            </div>
 
             <div class='row'>
                 <div class='col-md-12 alert alert-info'>
@@ -178,8 +169,6 @@
             </div>
         </div>
 
-        <br><br>
-
         <script src='js/jquery-1.11.2.min.js'></script>
         <script src='js/bootstrap.js'></script>
 
@@ -187,13 +176,6 @@
             $(document).ready(function(){
                 $('[data-toggle="tooltip"]').tooltip();   
             });
-        </script>
-
-        <!-- Tooltip test on email input -->
-        <script type="text/javascript">
-            function myToolTip(){
-                $('#myInput').tooltip();
-            }
         </script>
     </body>
 </html>
