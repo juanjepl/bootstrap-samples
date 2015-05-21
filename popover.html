@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <title>Random</title>
+        <link href='css/bootstrap.min.css' rel='stylesheet'>
+        <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+        <link href='css/jj.css' rel='stylesheet'>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <div class="container-fluid">
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="text-center">
+                        <span id="world" class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                        </br>
+                        </br>
+                        </br>
+                        <button type="button" class="btn btn-lg btn-primary" data-container="body" data-toggle="popover"
+                         data-title="Prueba de título. (En un popover)" data-placement="bottom" data-content="Esto es una sencilla prueba de popover." >
+                         Popover
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src='js/jquery-1.11.2.min.js'></script>
+        <script src='js/bootstrap.min.js'></script>
+            
+        <!-- Hay que activar los popovers manualmente. -->
+        <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover();
+            })
+        </script>
+    </body>
+</html>
